@@ -1,4 +1,5 @@
 # Amazon-Price-Tracker
+Amazon webscrapper which helps users find the best priced desired item.
 
 ### Set Up 
 Install the correct chrome driver: https://chromedriver.chromium.org/downloads
