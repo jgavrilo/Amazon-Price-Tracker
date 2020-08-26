@@ -1,0 +1,89 @@
+{
+  "base_link": "http://www.amazon.com/",
+  "best_item": {
+    "asin": "B073858Q9X",
+    "url": "http://www.amazon.com/dp/B073858Q9X",
+    "title": "Microsoft Xbox One S 1Tb Console - White [Discontinued]",
+    "seller": "Brand: Microsoft",
+    "price": 383.0
+  },
+  "currency": "$",
+  "date": "25/08/2020 23:19:17",
+  "filters": {
+    "min": "300",
+    "max": "600"
+  },
+  "products": [
+    {
+      "asin": "B089M5L82M",
+      "url": "http://www.amazon.com/dp/B089M5L82M",
+      "title": "Xbox One S 1TB Console",
+      "seller": "Brand: Microsoft",
+      "price": 408.0
+    },
+    {
+      "asin": "B08231TPSF",
+      "url": "http://www.amazon.com/dp/B08231TPSF",
+      "title": "Newest Flagship Microsoft Xbox One S 1TB HDD Bundle with Two (2X) Wireless Controllers, 1-Month Game Pass Trial, 14-Day Xbox Live Gold Trial - White",
+      "seller": "Brand: Xbox",
+      "price": 540.0
+    },
+    {
+      "asin": "B07YD67145",
+      "url": "http://www.amazon.com/dp/B07YD67145",
+      "title": "Xbox One S 1TB Console - Star Wars Jedi: Fallen Order Bundle",
+      "seller": "Brand: Microsoft",
+      "price": 458.0
+    },
+    {
+      "asin": "B073858Q9X",
+      "url": "http://www.amazon.com/dp/B073858Q9X",
+      "title": "Microsoft Xbox One S 1Tb Console - White [Discontinued]",
+      "seller": "Brand: Microsoft",
+      "price": 383.0
+    },
+    {
+      "asin": "B082FQV6S2",
+      "url": "http://www.amazon.com/dp/B082FQV6S2",
+      "title": "Xbox One S 1TB All-Digital Edition Two Controller Bundle, Xbox One S 1TB Disc-Free Console, 2 Wireless Controllers, Download Codes for Minecraft, Sea of Thieves and Fortnite Battle Royale",
+      "seller": "Brand: Microsoft",
+      "price": 599.0
+    },
+    {
+      "asin": "B07YD5ZBTW",
+      "url": "http://www.amazon.com/dp/B07YD5ZBTW",
+      "title": "Xbox One X 1TB Console - Star Wars Jedi: Fallen Order Bundle",
+      "seller": "Brand: Microsoft",
+      "price": 546.0
+    },
+    {
+      "asin": "B07P19XP84",
+      "url": "http://www.amazon.com/dp/B07P19XP84",
+      "title": "Microsoft Xbox One S 1TB Console with Xbox One Wireless Controller - Robot White",
+      "seller": "Brand: Microsoft",
+      "price": 415.95
+    },
+    {
+      "asin": "B07VVHCR6Q",
+      "url": "http://www.amazon.com/dp/B07VVHCR6Q",
+      "title": "Microsoft - Xbox One S 1TB All-Digital Edition Console with Xbox One Wireless Controller",
+      "seller": "Brand: Microsoft",
+      "price": 459.0
+    },
+    {
+      "asin": "B07GB1D7PF",
+      "url": "http://www.amazon.com/dp/B07GB1D7PF",
+      "title": "Xbox One S 1TB Console - NBA 2K19 Bundle (Discontinued)",
+      "seller": "Brand: Microsoft",
+      "price": 429.0
+    },
+    {
+      "asin": "B07R8ZSMHZ",
+      "url": "http://www.amazon.com/dp/B07R8ZSMHZ",
+      "title": "Xbox One S 1TB Console - Fortnite Battle Royale Special Edition Bundle (Discontinued)",
+      "seller": "Brand: Microsoft",
+      "price": 499.0
+    }
+  ],
+  "title": "Xbox One"
+}

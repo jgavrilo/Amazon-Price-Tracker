@@ -1,0 +1,110 @@
+{
+  "base_link": "http://www.amazon.com/",
+  "best_item": {
+    "asin": "B07DGCJ3KY",
+    "url": "http://www.amazon.com/dp/B07DGCJ3KY",
+    "title": "SAMSUNG Electronics UN32M4500BFXZA 720P Smart LED TV, 32\" (2018), 17.3\" x 28.9\" x 3.1\"",
+    "seller": "Visit the SAMSUNG Store",
+    "price": 148.0
+  },
+  "currency": "$",
+  "date": "25/08/2020 23:23:24",
+  "filters": {
+    "min": "250",
+    "max": "500"
+  },
+  "products": [
+    {
+      "asin": "B084JH43DJ",
+      "url": "http://www.amazon.com/dp/B084JH43DJ",
+      "title": "SAMSUNG 55-Inch Class Crystal UHD TU-8000 Series - 4K UHD HDR Smart TV with Alexa Built-in (UN55TU8000FXZA, 2020 Model)",
+      "seller": "Visit the SAMSUNG Store",
+      "price": 497.99
+    },
+    {
+      "asin": "B07NC925FR",
+      "url": "http://www.amazon.com/dp/B07NC925FR",
+      "title": "Samsung UN55RU7300FXZA Curved 55-Inch 4K UHD 7 Series Ultra HD Smart TV with HDR and Alexa Compatibility (2019 Model)",
+      "seller": "Visit the SAMSUNG Store",
+      "price": 497.99
+    },
+    {
+      "asin": "B07NC9SPBF",
+      "url": "http://www.amazon.com/dp/B07NC9SPBF",
+      "title": "Samsung UN50RU7100FXZA Flat 50-Inch 4K UHD 7 Series Ultra HD Smart TV with HDR and Alexa Compatibility (2019 Model)",
+      "seller": "Visit the SAMSUNG Store",
+      "price": 447.99
+    },
+    {
+      "asin": "B07CL4GLQW",
+      "url": "http://www.amazon.com/dp/B07CL4GLQW",
+      "title": "Samsung Electronics UN32N5300AFXZA 32\" 1080p Smart LED TV (2018), Black",
+      "seller": "Visit the SAMSUNG Store",
+      "price": 236.29
+    },
+    {
+      "asin": "B0849R5XZX",
+      "url": "http://www.amazon.com/dp/B0849R5XZX",
+      "title": "SAMSUNG 43-inch Class QLED Q60T Series - 4K UHD Dual LED Quantum HDR Smart TV with Alexa Built-in (QN43Q60TAFXZA, 2020 Model)",
+      "seller": "Visit the SAMSUNG Store",
+      "price": 527.99
+    },
+    {
+      "asin": "B07DGCJ3KY",
+      "url": "http://www.amazon.com/dp/B07DGCJ3KY",
+      "title": "SAMSUNG Electronics UN32M4500BFXZA 720P Smart LED TV, 32\" (2018), 17.3\" x 28.9\" x 3.1\"",
+      "seller": "Visit the SAMSUNG Store",
+      "price": 148.0
+    },
+    {
+      "asin": "B07W5QYD2K",
+      "url": "http://www.amazon.com/dp/B07W5QYD2K",
+      "title": "SAMSUNG QN32Q50RAFXZA Flat 32\" QLED 4K 32Q50 Series Smart TV",
+      "seller": "Visit the SAMSUNG Store",
+      "price": 497.99
+    },
+    {
+      "asin": "B08F7WFXT3",
+      "url": "http://www.amazon.com/dp/B08F7WFXT3",
+      "title": "Samsung UN50NU6900 50-Inch NU6900 Smart 4K UHD TV (2018 Model) - (Renewed)",
+      "seller": "Visit the Amazon Renewed Store",
+      "price": 379.99
+    },
+    {
+      "asin": "B085L5L7B1",
+      "url": "http://www.amazon.com/dp/B085L5L7B1",
+      "title": "SAMSUNG 32-inch Class Frame QLED LS03 Series - FHD Dual LED Quantum HDR Smart TV with Alexa Built-in (QN32LS03TBFXZA, 2020 Model)",
+      "seller": "Visit the SAMSUNG Store",
+      "price": 597.99
+    },
+    {
+      "asin": "B07GB61TQR",
+      "url": "http://www.amazon.com/dp/B07GB61TQR",
+      "title": "TCL 40S325 40 Inch 1080p Smart LED Roku TV (2019)",
+      "seller": "Visit the TCL Store",
+      "price": 198.0
+    },
+    {
+      "asin": "B07DK5PZFY",
+      "url": "http://www.amazon.com/dp/B07DK5PZFY",
+      "title": "TCL 43S425 43 Inch 4K Ultra HD Smart Roku LED TV (2018)",
+      "seller": "Visit the TCL Store",
+      "price": 229.0
+    },
+    {
+      "asin": "B073JP6WK4",
+      "url": "http://www.amazon.com/dp/B073JP6WK4",
+      "title": "Samsung Electronics UN32M4500A 32-Inch 720p Smart LED TV (2017 Model)",
+      "seller": "Visit the SAMSUNG Store",
+      "price": 190.92
+    },
+    {
+      "asin": "B08749TDYD",
+      "url": "http://www.amazon.com/dp/B08749TDYD",
+      "title": "Insignia NS-50DF711SE21 50-inch 4K UHD TV - Fire TV Edition",
+      "seller": "Visit the INSIGNIA Store",
+      "price": 269.99
+    }
+  ],
+  "title": "Samsung TV"
+}

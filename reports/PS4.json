@@ -1,0 +1,110 @@
+{
+  "title": "PS4",
+  "date": "25/08/2020 23:04:07",
+  "best_item": {
+    "asin": "B077QT6K94",
+    "url": "http://www.amazon.com/dp/B077QT6K94",
+    "title": "SONY PlayStation 4 Slim 1TB Console, Light & Slim PS4 System, 1TB Hard Drive, All the Greatest Games, TV, Music & More",
+    "seller": "Brand: SONY PlayStation 4",
+    "price": 356.0
+  },
+  "currency": "$",
+  "filters": {
+    "min": "275",
+    "max": "650"
+  },
+  "base_link": "http://www.amazon.com/",
+  "products": [
+    {
+      "asin": "B01LOP8EZC",
+      "url": "http://www.amazon.com/dp/B01LOP8EZC",
+      "title": "PlayStation 4 Pro 1TB Console",
+      "seller": "Visit the PlayStation Store",
+      "price": 399.0
+    },
+    {
+      "asin": "B074LRF639",
+      "url": "http://www.amazon.com/dp/B074LRF639",
+      "title": "PlayStation 4 Console - 1TB Slim Edition",
+      "seller": "Visit the Sony Store",
+      "price": 358.0
+    },
+    {
+      "asin": "B077QT6K94",
+      "url": "http://www.amazon.com/dp/B077QT6K94",
+      "title": "SONY PlayStation 4 Slim 1TB Console, Light & Slim PS4 System, 1TB Hard Drive, All the Greatest Games, TV, Music & More",
+      "seller": "Brand: SONY PlayStation 4",
+      "price": 356.0
+    },
+    {
+      "asin": "B07K14XKZH",
+      "url": "http://www.amazon.com/dp/B07K14XKZH",
+      "title": "Sony PlayStation 4 Pro 1TB Console - Black (PS4 Pro)",
+      "seller": "Visit the Sony Store",
+      "price": 459.23
+    },
+    {
+      "asin": "B086J41JC7",
+      "url": "http://www.amazon.com/dp/B086J41JC7",
+      "title": "Newest Playstation 4 PS4 1TB Slim Gaming Console w/HESVAP Charging Station Dock",
+      "seller": "Brand: HESVAP",
+      "price": 479.99
+    },
+    {
+      "asin": "B08BJ63ZH6",
+      "url": "http://www.amazon.com/dp/B08BJ63ZH6",
+      "title": "NexiGo 2020 Playstation 4 PS4 Slim 1TB Console Holiday Bundle Charging Dock Bundle",
+      "seller": "Visit the NexiGo Store",
+      "price": 479.0
+    },
+    {
+      "asin": "B07YLDNTKB",
+      "url": "http://www.amazon.com/dp/B07YLDNTKB",
+      "title": "PlayStation 4 Slim 1TB Console - Only On PlayStation Bundle",
+      "seller": "Visit the PlayStation Store",
+      "price": 436.95
+    },
+    {
+      "asin": "B0891QCWNG",
+      "url": "http://www.amazon.com/dp/B0891QCWNG",
+      "title": "2020 Playstation 4 PS4 1TB Slim Gaming Console w/Ghost Manta Fast Charging Station Dock",
+      "seller": "Brand: Ghost Manta",
+      "price": 479.0
+    },
+    {
+      "asin": "B01M0RU6LY",
+      "url": "http://www.amazon.com/dp/B01M0RU6LY",
+      "title": "PlayStation 4 Slim 500GB Console [Discontinued]",
+      "seller": "Visit the PlayStation Store",
+      "price": 363.99
+    },
+    {
+      "asin": "B089VM8BV7",
+      "url": "http://www.amazon.com/dp/B089VM8BV7",
+      "title": "2020 Playstation 4 PS4 1TB Slim Gaming Console w/Ghost Manta Fast Charging Station Dock",
+      "seller": "Brand: Ghost Manta",
+      "price": 479.0
+    },
+    {
+      "asin": "B0825526SW",
+      "url": "http://www.amazon.com/dp/B0825526SW",
+      "title": "Newest Sony Playstation 4 PS4 1TB HDD Gaming Console Bundle with Three Games: The Last of Us, God of War, Horizon Zero Dawn, Included Dualshock 4 Wireless Controller",
+      "seller": "Visit the Sony Store",
+      "price": 446.0
+    },
+    {
+      "asin": "B08232YKXB",
+      "url": "http://www.amazon.com/dp/B08232YKXB",
+      "title": "Newest Flagship Sony Play Station 4 1TB HDD Only on Playstation PS4 Console Slim Bundle - Included 3X Games (The Last of Us, God of War, Horizon Zero Dawn) 1TB Hard Drive Incredible Games -Jet Black",
+      "seller": "Visit the Sony Store",
+      "price": 449.95
+    },
+    {
+      "asin": "B088ZQYVZX",
+      "price": 479.0,
+      "seller": "Visit the NexiGo Store",
+      "title": "NexiGo 2020 Playstation 4 PS4 1TB Console Holiday Bundle Charging Dock Bundle",
+      "url": "http://www.amazon.com/dp/B088ZQYVZX"
+    }
+  ]
+}
