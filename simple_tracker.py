@@ -1,6 +1,8 @@
 # Import necessary libraries and classes
 import time
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.by import By
+
 from amazon_config import (
     get_web_driver_options,
     get_chrome_web_driver,
@@ -91,7 +93,8 @@ class AmazonAPI:
         # Open the Amazon website
         self.driver.get(self.base_url)
         # Enter the search term in the search bar
-        element = self.driver.find_element_by_xpath('//*[@id="twotabsearchtextbox"]')
+        element = self.driver.find_element(By.ID, "twotabsearchtextbox")
+
         element.send_keys(self.search_term)
         element.send_keys(Keys.ENTER)
         time.sleep(2)
@@ -102,10 +105,10 @@ class AmazonAPI:
         print(f"The URL: {self.driver.current_url}")
         time.sleep(2)
         # Get the links for each product on the page and return them
-        result_list = self.driver.find_elements_by_class_name('s-result-list')
+        result_list = self.driver.find_elements(By.CLASS_NAME, 's-result-list')
         links = []
         try:
-            results = result_list[0].find_elements_by_xpath(
+            results = result_list[0].find_elements(By.XPATH,
                 "//div/span/div/div/div[2]/div[2]/div/div[1]/div/div/div[1]/h2/a")
             links = [link.get_attribute('href') for link in results]
             return links
@@ -154,7 +157,7 @@ class AmazonAPI:
     def get_title(self):
         # Get the title of a product
         try:
-            return self.driver.find_element_by_id('productTitle').text
+            return self.driver.find_element(By.ID, 'productTitle').text
         except Exception as e:
             print(e)
             print(r"Can't get title of a product - {self.driver.current_url}")
@@ -163,7 +166,7 @@ class AmazonAPI:
     def get_seller(self):
         # Get the seller of a product
         try:
-            return self.driver.find_element_by_id('bylineInfo').text
+            return self.driver.find_element(By.ID, 'bylineInfo').text
         except Exception as e:
             print(e)
             print(r"Can't get seller of a product - {self.driver.current_url}")
@@ -174,14 +177,14 @@ class AmazonAPI:
         price = None
         try:
             # Check for the price in the main price block
-            price = self.driver.find_element_by_id('priceblock_ourprice').text
+            price = self.driver.find_element(By.ID, 'priceblock_ourprice').text
             price = self.convert_price(price)
         except NoSuchElementException:
             try:
                 # Check for the price in the alternate price block if the main price block is not found
-                availablity = self.driver.find_element_by_id('availablity').text
+                availablity = self.driver.find_element(By.ID, 'availablity').text
                 if 'Available' in availablity:
-                    price = self.driver.find_element_by_class_name('olp-padding-right').text
+                    price = self.driver.find_element(By.CLASS_NAME,'olp-padding-right').text
                     price = price[price.find(self.currency):]
                     price = self.convert_price(price)
             except Exception as e:
