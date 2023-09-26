@@ -77,17 +77,18 @@ class AmazonAPI:
         print(f"Looking for {self.search_term} products...")
         # Get product links for the specified search term
         links = self.get_product_links()
+        print(links)
         if not links:
             print("Stop")
             return
         print(f"Got {len(links)} product links")
-        print("Getting info about them...")
+        #print("Getting info about them...")
         # Get product data for each product link
-        products = self.get_products_info(links)
-        print(f"Got info about {len(products)} products...")
+        #products = self.get_products_info(links)
+        #print(f"Got info about {len(products)} products...")
         # Quit the Chrome webdriver instance
-        self.driver.quit()
-        return products
+        #self.driver.quit()
+        return None
 
     def get_product_links(self):
         # Open the Amazon website
@@ -102,14 +103,12 @@ class AmazonAPI:
         self.driver.get(f'{self.driver.current_url}{self.price_filter}')
         print(f"The URL: {self.driver.current_url}")
         time.sleep(2)
-        print(f"The URL: {self.driver.current_url}")
-        time.sleep(2)
         # Get the links for each product on the page and return them
         result_list = self.driver.find_elements(By.CLASS_NAME, 's-result-list')
         links = []
         try:
             results = result_list[0].find_elements(By.XPATH,
-                "//div/span/div/div/div[2]/div[2]/div/div[1]/div/div/div[1]/h2/a")
+                                               "//div[2]/div/div/div/div/div/div[2]/div/div/div[1]/h2/a")
             links = [link.get_attribute('href') for link in results]
             return links
         except Exception as e:
