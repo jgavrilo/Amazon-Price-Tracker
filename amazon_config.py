@@ -6,10 +6,10 @@ DIRECTORY = 'reports'
 
 # Set the name of the product to search for, the currency symbol used in the search,
 # and the minimum and maximum price range to search within, respectively
-NAME = "ipad pro"
+NAME = "Kindle"
 CURRENCY = "$"
-MIN_PRICE = "500"
-MAX_PRICE = "1100"
+MIN_PRICE = "0"
+MAX_PRICE = "500"
 
 # Create a dictionary to set the price range filter for the Amazon search
 FILTERS = {

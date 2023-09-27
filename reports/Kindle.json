@@ -1,0 +1,114 @@
+{
+  "title": "Kindle",
+  "date": "26/09/2023 18:29:26",
+  "best_item": {
+    "asin": "B09SWV5NB9",
+    "url": "http://www.amazon.com/dp/B09SWV5NB9",
+    "title": "Certified Refurbished Kindle (2022 release) \u2013 The lightest and most compact Kindle, now with a 6\u201d 300 ppi high-resolution display, and 2x the storage - Black",
+    "seller": "Brand: Amazon",
+    "price": 84.99
+  },
+  "currency": "$",
+  "filters": { "min": "0", "max": "500" },
+  "base_link": "http://www.amazon.com/",
+  "products": [
+    {
+      "asin": "B08KTZ8249",
+      "url": "http://www.amazon.com/dp/B08KTZ8249",
+      "title": "Kindle Paperwhite (8 GB) \u2013 Now with adjustable warm light, 6.8\u201d display, up to 10 weeks of battery life, and 20% faster page turns \u2013 Black",
+      "seller": "Brand: Amazon",
+      "price": 139.99
+    },
+    {
+      "asin": "B09SWV3BYH",
+      "url": "http://www.amazon.com/dp/B09SWV3BYH",
+      "title": "Amazon Kindle (2022 release) \u2013 The lightest and most compact Kindle, with extended battery life, adjustable front light, and 16 GB storage \u2013 Denim",
+      "seller": "Brand: Amazon",
+      "price": 99.99
+    },
+    {
+      "asin": "B07GRSK3HC",
+      "url": "http://www.amazon.com/dp/B07GRSK3HC",
+      "title": "Kindle Oasis \u2013 With 7\u201d display and page turn buttons",
+      "seller": "Brand: Amazon",
+      "price": 279.99
+    },
+    {
+      "asin": "B095J3TKSP",
+      "url": "http://www.amazon.com/dp/B095J3TKSP",
+      "title": "Kindle Paperwhite Signature Edition (32 GB) \u2013 With auto-adjusting front light, wireless charging, 6.8\u201c display, and up to 10 weeks of battery life\u2013 Without Lockscreen Ads \u2013 Denim",
+      "seller": "Brand: Amazon",
+      "price": 189.99
+    },
+    {
+      "asin": "B09BRZBK15",
+      "url": "http://www.amazon.com/dp/B09BRZBK15",
+      "title": "Kindle Scribe (16 GB) the first Kindle for reading, writing, journaling and sketching - with a 10.2\u201d 300 ppi Paperwhite display, includes Premium Pen",
+      "seller": "Brand: Amazon",
+      "price": 369.99
+    },
+    {
+      "asin": "B09SWV5NB9",
+      "url": "http://www.amazon.com/dp/B09SWV5NB9",
+      "title": "Certified Refurbished Kindle (2022 release) \u2013 The lightest and most compact Kindle, now with a 6\u201d 300 ppi high-resolution display, and 2x the storage - Black",
+      "seller": "Brand: Amazon",
+      "price": 84.99
+    },
+    {
+      "asin": "B09V8F3P91",
+      "url": "http://www.amazon.com/dp/B09V8F3P91",
+      "title": "Kindle Paperwhite \u2013 (Previous Generation - 2018 Release) Waterproof with 2X The Storage \u2013 Ad-Supported (Used Condition)",
+      "seller": "Brand: AmazonDevices",
+      "price": 89.99
+    },
+    {
+      "asin": "B0BLJ6LJBM",
+      "url": "http://www.amazon.com/dp/B0BLJ6LJBM",
+      "title": "Kindle Kids (2022 release) \u2013 Includes access to thousands of books, a cover, and a 2-year worry-free guarantee - Ocean Explorer",
+      "seller": "Brand: Amazon",
+      "price": 119.99
+    },
+    {
+      "asin": "B09JRXP2MS",
+      "url": "http://www.amazon.com/dp/B09JRXP2MS",
+      "title": "Certified Refurbished Kindle (2022 release) - Amazon Fire HD 8 tablet, 8\u201d HD Display, 32 GB, 30% faster processor, designed for portable entertainment, (2022 release), Denim",
+      "seller": "Brand: Amazon",
+      "price": 84.99
+    },
+    {
+      "asin": "B07FJ91TLB",
+      "url": "http://www.amazon.com/dp/B07FJ91TLB",
+      "title": "Kindle Oasis \u2013 With 7\u201d display and page turn buttons \u2013 Wi-Fi + Free Cellular Connectivity, 32 GB, Graphite",
+      "seller": "Brand: Amazon",
+      "price": 349.99
+    },
+    {
+      "asin": "B09SWV1FSS",
+      "url": "http://www.amazon.com/dp/B09SWV1FSS",
+      "title": "International Version - Kindle (2022 release) \u2013 The lightest and most compact Kindle, now with a 6\u201d 300 ppi high-resolution display, and 2x the storage - Denim",
+      "seller": "Brand: Amazon",
+      "price": 119.99
+    },
+    {
+      "asin": "B09FNJZD68",
+      "url": "http://www.amazon.com/dp/B09FNJZD68",
+      "title": "Kindle Paperwhite Signature Edition Essentials Bundle including Kindle Paperwhite Signature Edition (32 GB), Fabric Cover - Black, and Wireless Charging Dock",
+      "seller": "Brand: Amazon",
+      "price": 237.97
+    },
+    {
+      "asin": "B08N3J8GTX",
+      "url": "http://www.amazon.com/dp/B08N3J8GTX",
+      "title": "International Version \u2013 Kindle Paperwhite (8 GB) \u2013 Now with a 6.8\" display and adjustable warm light \u2013 Without Lockscreen Ads",
+      "seller": "Brand: Amazon",
+      "price": 159.99
+    },
+    {
+      "asin": "B09W8QLTTL",
+      "url": "http://www.amazon.com/dp/B09W8QLTTL",
+      "title": "Certified Refurbished Kindle Scribe (16 GB) the first Kindle for reading, writing, journaling and sketching - with a 10.2\u201d 300 ppi Paperwhite display, includes Basic Pen",
+      "seller": "Brand: Amazon",
+      "price": 234.99
+    }
+  ]
+}

@@ -94,7 +94,7 @@ class AmazonAPI:
         print(f"Got info about {len(products)} products...")
         # Quit the Chrome webdriver instance
         self.driver.quit()
-        return None
+        return products
 
     def get_product_links(self):
         # Open the Amazon website
