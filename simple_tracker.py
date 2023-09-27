@@ -4,6 +4,7 @@ import time
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
+from amazon_config import NAME, CURRENCY, MAX_PRICE, MIN_PRICE
 
 from amazon_config import (
     get_web_driver_options,
@@ -29,10 +30,10 @@ parser.add_argument('--min_price', type=str, help='Minimum price')
 parser.add_argument('--max_price', type=str, help='Maximum price')
 args = parser.parse_args()
 
-NAME = args.name or 'Kindle'
-CURRENCY = args.currency or '$'
-MIN_PRICE = args.min_price or '0'
-MAX_PRICE = args.max_price or '500'
+NAME = args.name or NAME  
+CURRENCY = args.currency or CURRENCY
+MIN_PRICE = args.min_price or MIN_PRICE
+MAX_PRICE = args.max_price or MAX_PRICE
 
 FILTERS = {
     'min': MIN_PRICE,
