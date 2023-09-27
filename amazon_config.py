@@ -22,7 +22,7 @@ BASE_URL = "http://www.amazon.com/"
 
 # Define a function to return a webdriver instance with Chrome browser options passed as an argument
 def get_chrome_web_driver(options):
-    return webdriver.Chrome("./chromedriver", chrome_options=options)
+    return webdriver.Chrome("./chromedriver", options=options)
 
 # Define a function to return an instance of webdriver.ChromeOptions()
 def get_web_driver_options():
