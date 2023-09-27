@@ -82,12 +82,12 @@ class AmazonAPI:
             print("Stop")
             return
         print(f"Got {len(links)} product links")
-        #print("Getting info about them...")
+        print("Getting info about them...")
         # Get product data for each product link
-        #products = self.get_products_info(links)
-        #print(f"Got info about {len(products)} products...")
+        products = self.get_products_info(links)
+        print(f"Got info about {len(products)} products...")
         # Quit the Chrome webdriver instance
-        #self.driver.quit()
+        self.driver.quit()
         return None
 
     def get_product_links(self):
@@ -108,7 +108,7 @@ class AmazonAPI:
         links = []
         try:
             results = result_list[0].find_elements(By.XPATH,
-                                               "//div[2]/div/div/div/div/div/div[2]/div/div/div[1]/h2/a")
+                                               "//div/div/div/div/div/div[2]/div/div/div[1]/h2/a")
             links = [link.get_attribute('href') for link in results]
             return links
         except Exception as e:
@@ -176,7 +176,7 @@ class AmazonAPI:
         price = None
         try:
             # Check for the price in the main price block
-            price = self.driver.find_element(By.ID, 'priceblock_ourprice').text
+            price = self.driver.find_element(By.CLASS_NAME, 'a-offscreen').text
             price = self.convert_price(price)
         except NoSuchElementException:
             try:
