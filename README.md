@@ -32,7 +32,7 @@ Edit the `amazon_config.py` file to set your preferences:
 - `NAME`: Product name to track.
 - `CURRENCY`: Currency symbol (e.g., "$").
 - `MIN_PRICE` and `MAX_PRICE`: Price range to filter the search results.
-- 
+
 ## Usage
 
 ## Running the Script with Command-Line Parameters
