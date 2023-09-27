@@ -1,29 +1,49 @@
 # Amazon Price Tracker
 
-This is a Python package that allows you to track the prices of Amazon products and generate reports based on their prices.
+## Overview
+
+This Python package allows you to track Amazon product prices and generate detailed reports. It uses Selenium for web scraping and provides a simple yet powerful way to keep an eye on your favorite products.
+
+## Prerequisites
+
+- Python 3.x
+- [Selenium](https://www.selenium.dev/)
+- [ChromeDriver](https://chromedriver.chromium.org/downloads)
 
 ## Installation
 
-To use this package, you will need to have Python 3 and the Selenium library installed on your system. You will also need to download the correct Chrome driver for your system from https://chromedriver.chromium.org/downloads.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/jgavrilo/Amazon-Price-Tracker.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd Amazon-Price-Tracker
+   ```
+3. Install Selenium:
+   ```bash
+   pip install selenium
+   ```
 
-To install the Selenium library, run the following command:
+## Configuration
 
-`pip install selenium`
+Edit the `amazon_config.py` file to set your preferences:
 
+- `NAME`: Product name to track.
+- `CURRENCY`: Currency symbol (e.g., "$").
+- `MIN_PRICE` and `MAX_PRICE`: Price range to filter the search results.
+- 
 ## Usage
-
-### Configuration
-
-To use this package, you will need to edit the `amazon_config.py` file to set the following parameters:
-
-- `NAME`: The name of the product you want to track
-- `CURRENCY`: The currency used on Amazon in your region
-- `MIN_PRICE`: The minimum price range for the product you want to track
-- `MAX_PRICE`: The maximum price range for the product you want to track
 
 ### Simple Tracker
 
-To run the simple tracker, run the `simple_tracker.py` script. This script will use the parameters you set in `amazon_config.py` to track the price of the product you specified and generate a report based on its price.
+Run the `simple_tracker.py` script to start tracking:
+
+```bash
+python simple_tracker.py
+```
+
+This will generate a JSON report in the `reports` directory.
 
 ### Amazon API
 
