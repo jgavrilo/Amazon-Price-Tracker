@@ -35,15 +35,25 @@ Edit the `amazon_config.py` file to set your preferences:
 - 
 ## Usage
 
-### Simple Tracker
+## Running the Script with Command-Line Parameters
 
-Run the `simple_tracker.py` script to start tracking:
+You can run the script with command-line parameters to specify the product name, currency, and price range. Here's how to do it:
 
 ```bash
-python simple_tracker.py
+python3 simple_tracker.py --name "Kindle" --currency "$" --min_price "50" --max_price "200"
 ```
 
-This will generate a JSON report in the `reports` directory.
+This will track Kindle products with prices ranging from $50 to $200.
+
+### Using Default Values
+
+If you want to run the script with the default values specified in `amazon_config.py`, you can simply execute:
+
+```bash
+python3 simple_tracker.py
+```
+
+This will use the default values for `NAME`, `CURRENCY`, `MIN_PRICE`, and `MAX_PRICE` as specified in the code or `amazon_config.py`.
 
 ### Amazon API
 

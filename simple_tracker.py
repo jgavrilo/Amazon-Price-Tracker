@@ -1,10 +1,9 @@
 # Import necessary libraries and classes
+import argparse
 import time
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
-from selenium.common.exceptions import NoSuchElementException, TimeoutException
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import NoSuchElementException
 
 from amazon_config import (
     get_web_driver_options,
@@ -18,9 +17,27 @@ from amazon_config import (
     BASE_URL,
     DIRECTORY
 )
-from selenium.common.exceptions import NoSuchElementException
+
 import json
 from datetime import datetime
+
+# Argument parser
+parser = argparse.ArgumentParser(description='Amazon Price Tracker')
+parser.add_argument('--name', type=str, help='Product name to track')
+parser.add_argument('--currency', type=str, help='Currency symbol')
+parser.add_argument('--min_price', type=str, help='Minimum price')
+parser.add_argument('--max_price', type=str, help='Maximum price')
+args = parser.parse_args()
+
+NAME = args.name or 'Kindle'
+CURRENCY = args.currency or '$'
+MIN_PRICE = args.min_price or '0'
+MAX_PRICE = args.max_price or '500'
+
+FILTERS = {
+    'min': MIN_PRICE,
+    'max': MAX_PRICE
+}
 
 # Define a class for generating a report
 class GenerateReport:
