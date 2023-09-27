@@ -2,6 +2,9 @@
 import time
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
+from selenium.common.exceptions import NoSuchElementException, TimeoutException
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 from amazon_config import (
     get_web_driver_options,
@@ -49,13 +52,16 @@ class GenerateReport:
         return now.strftime("%d/%m/%Y %H:%M:%S")
 
     def get_best_item(self):
+        if not self.data:
+            print("No data to sort.")
+            return None
         try:
-            # Sort the product data by price and return the best (i.e., cheapest) item
             return sorted(self.data, key=lambda k: k['price'])[0]
         except Exception as e:
             print(e)
             print("A problem occurred while sorting the items")
             return None
+
 
 # Define a class for interacting with the Amazon website using Selenium
 class AmazonAPI:
@@ -143,14 +149,13 @@ class AmazonAPI:
         price = self.get_price()
         # If all the required product data is available, create a product_info dictionary and return it
         if title and seller and price:
-            product_info = {
+            return {
                 'asin': asin,
                 'url': product_short_url,
                 'title': title,
                 'seller': seller,
                 'price': price
             }
-            return product_info
         return None
 
     def get_title(self):
@@ -172,18 +177,15 @@ class AmazonAPI:
             return None
 
     def get_price(self):
-        # Get the price of a product
         price = None
         try:
-            # Check for the price in the main price block
-            price = self.driver.find_element(By.CLASS_NAME, 'a-offscreen').text
+            price = self.driver.find_element(By.ID, 'apex_offerDisplay_desktop').text
             price = self.convert_price(price)
         except NoSuchElementException:
             try:
-                # Check for the price in the alternate price block if the main price block is not found
-                availablity = self.driver.find_element(By.ID, 'availablity').text
-                if 'Available' in availablity:
-                    price = self.driver.find_element(By.CLASS_NAME,'olp-padding-right').text
+                availability = self.driver(By.ID, 'availability').text
+                if 'Available' in availability:
+                    price = self.driver.find_element(By.ID, 'olp-padding-right').text
                     price = price[price.find(self.currency):]
                     price = self.convert_price(price)
             except Exception as e:
